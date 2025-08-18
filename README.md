@@ -2,8 +2,8 @@
 
 > **Notebook educativo completo para aprender a deployar modelos de Machine Learning usando las herramientas más modernas de Python**
 
-[![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1-green.svg)](https://fastapi.tiangolo.com/)
 [![UV](https://img.shields.io/badge/UV-Package%20Manager-orange.svg)](https://github.com/astral-sh/uv)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
 [![Fly.io](https://img.shields.io/badge/Deploy-Fly.io-purple.svg)](https://fly.io/)
@@ -18,7 +18,7 @@ Aprender a crear una **API robusta y escalable** para servir modelos de ML, sigu
 
 ### 🔧 Stack Tecnológico
 
-- **🐍 Python 3.11+**: Lenguaje base con las últimas características
+- **🐍 Python 3.13+**: Lenguaje base con las últimas características
 - **⚡ FastAPI**: Framework web moderno y ultra-rápido
 - **📦 UV**: Gestor de dependencias escrito en Rust (10x más rápido que pip)
 - **🤖 Scikit-learn**: Machine Learning con pipelines optimizados
@@ -29,13 +29,13 @@ Aprender a crear una **API robusta y escalable** para servir modelos de ML, sigu
 ## 📁 Estructura del Proyecto
 
 ```
-.
-├── README.md                    # Este archivo
-├── notebook/                   # 📓 Notebook educativo principal
-│   └── ml-fastapi-uv.md        # Guía completa paso a paso
-├── raw/                        # 📝 Material fuente
-│   └── video_notes.md          # Notas del workshop original
-└── .gitignore                  # Archivos ignorados por Git
+├── README.md                        # Este archivo
+├── notebook/                        # 📓 Notebook educativo principal
+│   ├── ml_fastapi_deployment.md     # Guía completa paso a paso
+│   └── workshop_fastapi_ml/         # 📂 Archivos guardados del workshop original
+├── raw/                             # 📝 Material fuente
+│   └── video_notes.md               # Notas del workshop original
+└── .gitignore                       # Archivos ignorados por Git
 ```
 
 ## 🎓 ¿Qué Aprenderás?

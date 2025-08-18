@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
-#
+# PyCharm
 .idea/
+
+# Notebook
+.ipynb_checkpoints
