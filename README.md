@@ -1,6 +1,6 @@
 # 🚀 Implementación de Modelos de ML con FastAPI y uv
 
-> **Notebook educativo completo para aprender a deployar modelos de Machine Learning usando las herramientas más modernas de Python**
+> **Repositorio educativo completo para aprender a deployar modelos de Machine Learning usando las herramientas más modernas de Python**
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1-green.svg)](https://fastapi.tiangolo.com/)
@@ -10,7 +10,7 @@
 
 ## 📖 Descripción
 
-Este repositorio contiene un **notebook educativo completo** que te enseña a implementar y desplegar modelos de Machine Learning en producción usando las herramientas más modernas y eficientes del ecosistema Python.
+Este repositorio contiene recursos educativos completos que te enseñan a implementar y desplegar modelos de Machine Learning en producción usando las herramientas más modernas y eficientes del ecosistema Python.
 
 ### 🎯 Objetivo
 
@@ -29,13 +29,20 @@ Aprender a crear una **API robusta y escalable** para servir modelos de ML, sigu
 ## 📁 Estructura del Proyecto
 
 ```
-├── README.md                        # Este archivo
-├── notebook/                        # 📓 Notebook educativo principal
-│   ├── ml_fastapi_deployment.md     # Guía completa paso a paso
-│   └── workshop_fastapi_ml/         # 📂 Archivos guardados del workshop original
-├── raw/                             # 📝 Material fuente
-│   └── video_notes.md               # Notas del workshop original
-└── .gitignore                       # Archivos ignorados por Git
+.
+├── fastapi_ml_deployment_guide.ipynb    # 📚 Guía completa de deployment ML
+└── workshop_fastapi_ml/                 # 🎓 Workshop práctico completo
+    ├── 01-workshop-uv-fastapi.ipynb     # 📓 Tutorial paso a paso
+    ├── 02-train.py                      # 🎯 Entrenamiento del modelo
+    ├── 03-predict.py                    # 🔮 Sistema de predicciones
+    ├── 04-ping.py                       # 🏓 Health check endpoint
+    ├── 05-test.py                       # 🧪 Tests automatizados
+    ├── Dockerfile                       # 🐳 Containerización
+    ├── README.md                        # 📖 Documentación técnica detallada
+    ├── fly.toml                         # ✈️ Configuración Fly.io
+    ├── model_logistic_regression.bin    # 🤖 Modelo entrenado
+    ├── pyproject.toml                   # ⚙️ Configuración proyecto
+    └── uv.lock                          # 🔒 Dependencies lock
 ```
 
 ## 🎓 ¿Qué Aprenderás?
@@ -68,33 +75,58 @@ Aprender a crear una **API robusta y escalable** para servir modelos de ML, sigu
 
 ### Prerrequisitos
 
-- Python 3.11 o superior
+- Python 3.13 o superior
 - [UV](https://github.com/astral-sh/uv) instalado
 - Docker (opcional, para contenedorización)
 - Cuenta en [Fly.io](https://fly.io/) (opcional, para deployment)
 
-### Instalación
+### 📍 ¿Por Dónde Empezar?
 
+#### 📖 **Opción 1: Conceptos y Teoría**
 ```bash
-# 1. Clonar el repositorio
-git clone <tu-repo-url>
-cd ml-fastapi-uv
+# Clonar el repositorio
+git clone https://github.com/jesusoviedo/fastapi-ml-deploy.git
+cd fastapi-ml-deploy
 
-# 2. Instalar UV (si no lo tienes)
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# 3. Abrir el notebook educativo
-# Recomendado: VS Code, Jupyter Lab, o cualquier editor Markdown
+# Abrir la guía completa de deployment
+jupyter notebook fastapi_ml_deployment_guide.ipynb
 ```
 
-### 📓 Seguir el Notebook
+**👉 Perfecto para**: Entender conceptos fundamentales, arquitecturas y mejores prácticas.
 
-El notebook principal (`notebook/ml-fastapi-uv.md`) está diseñado para ser seguido paso a paso:
+#### 🛠️ **Opción 2: Práctica Hands-On Directa**
+```bash
+# Clonar el repositorio
+git clone https://github.com/jesusoviedo/fastapi-ml-deploy.git
+cd fastapi-ml-deploy/workshop_fastapi_ml
 
-1. **📖 Lee cada sección cuidadosamente** - Contiene explicaciones detalladas
-2. **💻 Ejecuta el código** - Todos los ejemplos son funcionales
-3. **🧪 Experimenta** - Modifica parámetros y observa los resultados
-4. **🎯 Completa el proyecto** - Al final tendrás una API completa
+# Instalar UV (si no lo tienes)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Seguir el workshop paso a paso
+jupyter notebook 01-workshop-uv-fastapi.ipynb
+
+# O leer la documentación técnica
+cat README.md
+```
+
+**👉 Perfecto para**: Implementar y desplegar inmediatamente una API funcional.
+
+### 🎯 Rutas de Aprendizaje Recomendadas
+
+#### 🔰 **Principiante en ML Deployment**
+1. **📚 Teoría primero** → `fastapi_ml_deployment_guide.ipynb`
+2. **📓 Tutorial interactivo** → `workshop_fastapi_ml/01-workshop-uv-fastapi.ipynb`
+3. **🛠️ Implementación** → Seguir archivos `02-train.py` a `05-test.py`
+4. **🚀 Deployment** → `Dockerfile` y `fly.toml`
+
+#### ⚡ **Desarrollador Experimentado**
+1. **🔍 Revisión rápida** → `fastapi_ml_deployment_guide.ipynb` (secciones avanzadas)
+2. **💻 Implementación directa** → `workshop_fastapi_ml/02-train.py` y siguientes
+3. **🐳 Containerización** → `workshop_fastapi_ml/Dockerfile`
+4. **☁️ Deploy inmediato** → `workshop_fastapi_ml/fly.toml`
+
+> 💡 **Nota**: La carpeta `workshop_fastapi_ml` contiene su propio `README.md` con **instrucciones técnicas detalladas** para ejecutar cada paso.
 
 ## 🎬 Fuente Original
 
@@ -104,8 +136,9 @@ Este material educativo está basado en el excelente workshop de **Alexey Grigor
 
 ### 📝 Contenido Ampliado
 
-El notebook expande significativamente el contenido original con:
+El repositorio expande significativamente el contenido original con:
 - **Explicaciones pedagógicas detalladas** de cada concepto
+- **Guía completa de deployment** con teoría y práctica
 - **Ejemplos de código completos y funcionales**
 - **Mejores prácticas actualizadas** para 2024-2025
 - **Secciones de troubleshooting y optimización**
@@ -136,12 +169,9 @@ El notebook expande significativamente el contenido original con:
 
 ### 🎓 Cursos Complementarios
 
-#### **Gratuitos**
 - **ML Zoomcamp:** [Complete Free Course](https://github.com/DataTalksClub/machine-learning-zoomcamp) - Curso completo de ML
 - **FastAPI Course:** [FreeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA) - 19 horas de FastAPI
 - **Python API Development:** [Academind](https://www.youtube.com/watch?v=0tV0s8ajpQk) - Desarrollo de APIs
-
-#### **Pagos**
 - **FastAPI for Beginners:** [Udemy](https://www.udemy.com/course/fastapi-the-complete-course/) - Curso completo
 - **MLOps Specialization:** [Coursera](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) - MLOps con Andrew Ng
 - **Python Web APIs:** [Pluralsight](https://www.pluralsight.com/paths/python-web-development) - Desarrollo web Python
@@ -184,6 +214,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ---
 
 ## 📬 Contacto
+
+**Mantenedor:** [@jesusoviedo](https://github.com/jesusoviedo)
 
 Si tienes preguntas o sugerencias sobre este material educativo:
 
