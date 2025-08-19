@@ -148,7 +148,7 @@ El repositorio expande significativamente el contenido original con:
 
 ### 🔗 Enlaces del Workshop Original
 
-- **Code for this Workshop:** https://github.com/alexeygrigorev/workshop-fastapi-uv
+- **Code for this Workshop:** https://github.com/alexeygrigorev/workshops/tree/main/mlzoomcamp-fastapi-uv
 - **ML Zoomcamp Course Content:** https://github.com/DataTalksClub/machine-learning-zoomcamp
 - **Module 5 of ML Zoomcamp:** https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master/05-deployment
 
@@ -162,7 +162,7 @@ El repositorio expande significativamente el contenido original con:
 
 ### 🎥 Videos Recomendados
 
-- **FastAPI Tutorial Series:** [Playlist de FastAPI](https://www.youtube.com/playlist?list=PLQhWOGWWcV6KLXgSwN2EFWLLXk9T3uTiq)
+- **FastAPI para IA:** [Cree un punto final de IA en 30 minutos](https://www.youtube.com/watch?v=uDUfZyNXFX0)
 - **ML Zoomcamp Complete Course:** [DataTalks.Club YouTube](https://www.youtube.com/c/DataTalksClub)
 - **Python Packaging with UV:** [Charming Data](https://www.youtube.com/watch?v=8UuW8o4bHbw)
 - **Docker for Python Developers:** [Tech With Tim](https://www.youtube.com/watch?v=bi0cKgmRuiA)
@@ -170,11 +170,11 @@ El repositorio expande significativamente el contenido original con:
 ### 🎓 Cursos Complementarios
 
 - **ML Zoomcamp:** [Complete Free Course](https://github.com/DataTalksClub/machine-learning-zoomcamp) - Curso completo de ML
-- **FastAPI Course:** [FreeCodeCamp](https://www.youtube.com/watch?v=0sOvCWFmrtA) - 19 horas de FastAPI
+- **FastAPI Course:** [FreeCodeCamp](https://www.youtube.com/watch?v=tLKKmouUams) - 1 hora de FastAPI
 - **Python API Development:** [Academind](https://www.youtube.com/watch?v=0tV0s8ajpQk) - Desarrollo de APIs
 - **FastAPI for Beginners:** [Udemy](https://www.udemy.com/course/fastapi-the-complete-course/) - Curso completo
 - **MLOps Specialization:** [Coursera](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) - MLOps con Andrew Ng
-- **Python Web APIs:** [Pluralsight](https://www.pluralsight.com/paths/python-web-development) - Desarrollo web Python
+- **FastAPI Courses:** [Pluralsight](https://www.pluralsight.com/browse?=&q=fastapi&sort=relevance&page=1) - FastAPI cursos
 
 ### 🛠️ Herramientas y Librerías Relacionadas
 
